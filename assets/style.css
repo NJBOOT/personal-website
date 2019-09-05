@@ -50,7 +50,8 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 #headshot-pic {
     float: right;
-    border: 5px solid black
+    border: 5px solid black;
+    margin: 10px;
 }
 
 #about-me {
@@ -87,6 +88,7 @@ a:hover {
     height: 300px;
     width: 100%;
     float: right;
+    border: 2px solid black;
 }
 
 .contact-form {
@@ -140,8 +142,8 @@ a:hover {
         height: 150px;
         width: 100%;
     }
-
+/* 
     .card-main {
         width: 175px;
     }
-}
+} */
