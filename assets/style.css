@@ -85,7 +85,7 @@ a:hover {
 /* Contact Form */
 #map {
     height: 300px;
-    width: 300px;
+    width: 100%;
     float: right;
 }
 
@@ -115,4 +115,33 @@ a:hover {
 #resume-main {
     margin: 20px;
     height: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    #about-me {
+        height: 1000px;
+        margin: 20px;
+    }
+
+    #portfolio-main {
+        height: 1000px;
+        margin: 20px;
+    }
+
+    #resume-main {
+        height: 1000px;
+        margin: 20px;
+    }
+    #contact-main {
+        height: 1000px;
+        margin: 20px;
+    }
+    #map {
+        height: 150px;
+        width: 100%;
+    }
+
+    .card-main {
+        width: 175px;
+    }
 }
