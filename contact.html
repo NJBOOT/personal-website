@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="./assets/javascript/page.js"></script>
+    <title>About Me</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-main">
+            <h1 id="header-name">Nico Barbarese</h1>
+            <h4 id="header-sub">Web Developer</h4>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <div class="card card-main" id="contact-card">
+                    <div class="card-body">
+                        <h2 class="card-title">Contact</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-9">
+                <div class="card" id="contact-main">
+                    <div class="card-header" id="contact-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-7">
+                                <div class="contact-header">
+                                    <a href="https://www.linkedin.com/in/nico-barbarese-b242a565" target="_blank"><img
+                                            src="./assets/img/linked-in.png" alt="LinkedIn" height="25" width="25"></a>
+                                    <a href="https://github.com/NJBOOT" target="_blank"><img
+                                            src="./assets/img/github.png" height="30" width="30" alt=""></a><span>
+                                        215.480.1651 |
+                                        nicobarbarese@gmail.com</span>
+                                </div>
+                                <form class="contact-form" action="">
+                                    <div class="form-group name-group">
+                                        <label for="name">Name</label>
+                                        <input type="name" class="form-control" id="name-field" placeholder="Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email address</label>
+                                        <input type="email" class="form-control" id="email-address"
+                                            placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message">Message</label>
+                                        <input type="message" class="form-control" id="message-field"
+                                            placeholder="Enter a Message">
+                                    </div>
+                                    <button type="submit" class="btn btn-dark">Submit</button>
+                                </form>
+                            </div>
+                            <div class="col-5 float-right">
+                                <div id="map"></div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="card-footer">
+                        <p id="footer-links"><span><a href="index.html">Home</a></span> | <span><a
+                                    href="about.html">About Me</a></span> | <span><a
+                                    href="resume.html">Resume</a></span> | <span><a
+                                    href="portfolio.html">Portfolio</a></span> | <span><a
+                                    href="contact.html">Contact</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmV3sQjSGF4hIVZtgcTBYectRFJGBw9uc&callback=initMap">
+        </script>
+</body>
+
+</html>

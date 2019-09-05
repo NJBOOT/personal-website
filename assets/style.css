@@ -1,0 +1,118 @@
+body {
+    background-color: black;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#header-name,#header-sub {
+color: whitesmoke;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#header-sub {
+    font-style: italic
+}
+
+.card-main {
+    height: 500px;
+    line-height: 500px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.card-header {
+    text-align: center;
+}
+.card-main:hover {
+    -moz-box-shadow: 0 0 20px #ccc;
+    -webkit-box-shadow: 0 0 20px #ccc;
+    box-shadow: 0 0 20px #ccc;
+  }
+
+#about-card {
+    background-color: lightblue
+}
+
+#resume-card {
+    background-color: lightgreen
+}
+
+#port-card {
+    background-color: lightyellow
+}
+
+#contact-card {
+    background-color: lightcoral
+}
+
+/* About Form */
+
+#headshot-pic {
+    float: right;
+    border: 5px solid black
+}
+
+#about-me {
+    height: 500px;
+    margin-top: 20px
+}
+#about-text {
+    padding: 0px 10px 10px 10px;
+    margin: 0px 10px 10px 10px;
+    font-size: 20px;
+}
+
+#about-title {
+    margin-top: 10px;
+    text-align: center
+}
+
+/* Footer Links */
+
+#footer-links {
+    color: darkgray
+}
+
+a {
+    color: slategray
+}
+
+a:hover {
+    color: lightgrey
+}
+
+/* Contact Form */
+#map {
+    width: 300px;
+    height: 300px;
+    float: right;
+}
+
+.contact-form {
+    margin: 10px;
+}
+
+#contact-main {
+    height: 620px;
+    margin: 20px;
+}
+
+#message-field {
+    height: 100px;
+    vertical-align: top;
+}
+
+/* Portfolio Form */
+
+#portfolio-main {
+    margin: 20px;
+    height: 600px;
+}
+
+/* Resume Form */
+
+#resume-main {
+    margin: 20px;
+    height:500px;
+}
