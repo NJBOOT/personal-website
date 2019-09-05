@@ -84,6 +84,8 @@ a:hover {
 
 /* Contact Form */
 #map {
+    height: 300px;
+    width: 300px;
     float: right;
 }
 
@@ -112,5 +114,5 @@ a:hover {
 
 #resume-main {
     margin: 20px;
-    height:500px;
+    height: 500px;
 }
