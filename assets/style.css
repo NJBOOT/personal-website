@@ -14,11 +14,10 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 .card-main {
     height: 500px;
-    line-height: 500px;
     margin-top: 20px;
     text-align: center;
+    vertical-align: middle;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-
 }
 
 .card-header {

@@ -44,22 +44,43 @@
                                         215.480.1651 |
                                         nicobarbarese@gmail.com</span>
                                 </div>
-                                <form class="contact-form" action="">
-                                    <div class="form-group name-group">
-                                        <label for="name">Name</label>
-                                        <input type="name" class="form-control" id="name-field" placeholder="Name">
+                                <form class="contact-form" action="https://postmail.invotes.com/send" method="POST"
+                                    id="email_form">
+                                    <div class="form-group">
+                                        <input class="form-control" type="text" name="extra_name" placeholder="Name">
                                     </div>
                                     <div class="form-group">
-                                        <label for="email">Email address</label>
-                                        <input type="email" class="form-control" id="email-address"
-                                            placeholder="Enter email">
+                                        <input class="form-control" type="email" name="email" placeholder="Email Address" />
                                     </div>
                                     <div class="form-group">
-                                        <label for="message">Message</label>
-                                        <input type="message" class="form-control" id="message-field"
-                                            placeholder="Enter a Message">
+                                        <textarea class="form-control" name="text" placeholder="Message"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-dark">Submit</button>
+                                    <input class="form-control" type="hidden" name="access_token"
+                                        value="63fssf4i0mhllrtjn4ig4r21" />
+                                    <!-- return urls can be fully qualified -OR-
+         start with / for root relative -OR-
+         start with . for url relative -->
+                                    <input type="hidden" name="success_url"
+                                        value=".?message=Email+Successfully+Sent%21&isError=0" />
+                                    <input type="hidden" name="error_url"
+                                        value=".?message=Email+could+not+be+sent.&isError=1" />
+
+
+                                    <!-- set the reply-to address -->
+                                    <!-- <input type="text" name="reply_to"
+                placeholder="Your Email" /> -->
+
+                                    <!-- to append extra fields, use the extra_ prefix.
+        Entries will be appended to your message body. -->
+                                    <!-- <input type="text" name="extra_phone_number"
+                placeholder="Phone Number" /> -->
+
+                                    <!-- to split your message into 160 chars
+         for an sms gateway -->
+                                    <!-- <input type="hidden"
+                name="sms_format" value="true" /> -->
+
+                                    <input class="btn btn-dark" id="submit_form" type="submit" value="Send" />
                                 </form>
                             </div>
                             <div class="col-5 float-right">
@@ -87,3 +108,21 @@
 </body>
 
 </html>
+
+<!-- <form class="contact-form" action="mailto:nicobarbarese@gmail.com" method="POST" enctype="text/plain">
+                                    <div class="form-group name-group">
+                                        <label for="name">Name</label>
+                                        <input name="name" type="name" class="form-control" id="name-field" placeholder="Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Email address</label>
+                                        <input name="email" type="email" class="form-control" id="email-address"
+                                            placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group align-top">
+                                        <label for="message">Message</label>
+                                        <textarea name="message" type="message" class="form-control" id="message-field"
+                                            placeholder="Enter a Message"></textarea>
+                                    </div>
+                                    <button type="submit" value="Send" class="btn btn-dark">Submit</button>
+                                </form> -->

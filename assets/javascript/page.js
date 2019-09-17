@@ -15,6 +15,7 @@ $("#port-card").on("click",function(){
     location.href="portfolio.html"
 })
 
+
 });
 
 function initMap() {
