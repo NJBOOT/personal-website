@@ -1,7 +1,12 @@
 body {
-    background-color: black;
+    /* background-color: rgba(0,0,0,1); */
+    background-image: url("./img/slate.png");
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+
+/* .container {
+    
+} */
 
 #header-name,#header-sub {
 color: whitesmoke;
@@ -70,15 +75,15 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
 
 /* Footer Links */
 
-#footer-links {
-    color: darkgray
-}
-
-a {
+#footer-links a {
     color: slategray
 }
 
-a:hover {
+/* a {
+    color: slategray
+} */
+
+#footer-links a:hover {
     color: lightgrey
 }
 
@@ -95,7 +100,7 @@ a:hover {
 }
 
 #contact-main {
-    height: 620px;
+    height: 500px;
     margin: 20px;
 }
 
