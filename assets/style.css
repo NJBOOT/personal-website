@@ -123,14 +123,14 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
     height: 500px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     #about-me {
-        height: 1000px;
+        height: 750px;
         margin: 20px;
     }
 
     #portfolio-main {
-        height: 1000px;
+        height: 1100px;
         margin: 20px;
     }
 
@@ -139,7 +139,7 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
         margin: 20px;
     }
     #contact-main {
-        height: 1000px;
+        height: 500px;
         margin: 20px;
     }
     #map {
