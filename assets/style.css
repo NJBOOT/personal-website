@@ -4,10 +4,6 @@ body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-/* .container {
-    
-} */
-
 #header-name,#header-sub {
 color: whitesmoke;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -123,19 +119,40 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
     height: 500px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 600px) {
+
+    #portfolio-main {
+        height: 1000px
+    }
+
+    /* #about-me {
+        height: 650px
+    } */
+}
+
+@media screen and (max-width: 992px){
     #about-me {
-        height: 750px;
+        height: 600px;
+        margin: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .card-main {
+    height: 250px;
+
+    }
+    #about-me {
+        height: 650px;
         margin: 20px;
     }
 
     #portfolio-main {
-        height: 1100px;
+        height: 600px;
         margin: 20px;
     }
 
     #resume-main {
-        height: 1000px;
+        height: 500px;
         margin: 20px;
     }
     #contact-main {
@@ -147,8 +164,31 @@ font-family: "Trebuchet MS", Helvetica, sans-serif;
         width: 100%;
     }
 }
-/* 
+
+@media screen and (max-width: 600px) {
     .card-main {
-        width: 175px;
+        height: 200px;
     }
-} */
+
+    #about-me {
+        height: 850px
+    }
+    #about-card-body {
+        text-align: center;
+    }
+    #headshot-pic {
+        float: none;
+        clear: both;
+        border: 5px solid black;
+        margin: 10px;
+    }
+    #portfolio-main {
+        height: 700px;
+        margin: 20px;
+    }
+
+    #contact-main {
+        height: 575px;
+        margin: 20px;
+    }
+}
